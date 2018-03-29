@@ -13,7 +13,8 @@ shottty uses the configuration file created by the cli. e.g.
 
 ## Running
 
-`pipenv run "python shotty/shotty.py <command> <--project-PROJECT>"`
+`pipenv run "python shotty/shotty.py <command> <subcommand> <--project-PROJECT>"`
 
 *command* is list, start, or stop
+*subcommand* - depends on command
 *project* is optional
